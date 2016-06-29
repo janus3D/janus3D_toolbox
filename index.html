@@ -1,0 +1,84 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>janus3D toolbox by janus3D</title>
+
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="stylesheets/github-light.css">
+    <meta name="viewport" content="width=device-width">
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1>janus3D toolbox</h1>
+        <p></p>
+
+        <p class="view"><a href="https://github.com/janus3D/janus3D_toolbox">View the Project on GitHub <small>janus3D/janus3D_toolbox</small></a></p>
+
+
+        <ul>
+          <li><a href="https://github.com/janus3D/janus3D_toolbox/zipball/master">Download <strong>ZIP File</strong></a></li>
+          <li><a href="https://github.com/janus3D/janus3D_toolbox/tarball/master">Download <strong>TAR Ball</strong></a></li>
+          <li><a href="https://github.com/janus3D/janus3D_toolbox">View On <strong>GitHub</strong></a></li>
+        </ul>
+      </header>
+      <section>
+        <p><img src="https://cloud.githubusercontent.com/assets/18577101/16454656/d19df504-3e11-11e6-9b86-17d861c9d542.png" alt="janus3D start"></p>
+
+<p>janus3D is an open source MATLAB toolbox for the purpose of EEG electrode determi- nation and co-registration of 3D head models with individual structural MR images. It features smart selection and automatic texture-based EEG electrode detection, provid- ing highly accurate EEG sensor positions for source reconstruction analyses. It makes use of GUI-based functions allowing the user to obtain sensor positions fast and comfort- able. To enhance the actual 3D reconstruction process a tool for automatic background selection and mask creation is included. Electrode cap templates of EEG cap systems that are not included can be created using the implemented ’Template Builder’. This tool allows the creation of individual cap templates that are used for automatic label- ing of the EEG electrode positions. janus3D requires MATLAB 2015a (MathWorks), including Image Processing Toolbox (MathWorks), Computer Vision System Toolbox (MathWorks), and Fieltrip Toolbox (Oostenveld, Fries, Maris, &amp; Schoffelen, 2011).</p>
+
+<p>To install janus3D add the janus3D folder containing all functions to your MATLAB search path.</p>
+
+<h2>
+<a id="example-workflow" class="anchor" href="#example-workflow" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>EXAMPLE WORKFLOW:</h2>
+
+<p>1) start the program by typing 'j3d', 'janus' or 'janus3D' into your MATLAB command line.
+<img src="https://cloud.githubusercontent.com/assets/18577101/16453747/37bb8026-3e0e-11e6-8213-1e18557b5fe1.jpg" alt="janus3D Main GUI"></p>
+
+<p>2) load .obj and .nifti files
+<img src="https://cloud.githubusercontent.com/assets/18577101/16453746/37bb0ad8-3e0e-11e6-8edc-5670a00ae67f.jpg" alt="janus3D loading files"></p>
+
+<p>3) rotate the model into MRI space
+<img src="https://cloud.githubusercontent.com/assets/18577101/16453749/37bec024-3e0e-11e6-96ed-042ba1610a45.jpg" alt="janus3D rotation into MRI space"></p>
+
+<p>4) select facial parts of the model
+<img src="https://cloud.githubusercontent.com/assets/18577101/16453745/37b9d6f4-3e0e-11e6-80f0-986ea91839c6.jpg" alt="janus3D face selection of the model"></p>
+
+<p>5) select facial parts of the MRI
+<img src="https://cloud.githubusercontent.com/assets/18577101/16453739/379fd790-3e0e-11e6-85a1-edd8b34a397a.jpg" alt="janus3D face selection of the MRI"></p>
+
+<p>6) register model to MRI
+<img src="https://cloud.githubusercontent.com/assets/18577101/16453744/37a9ecb2-3e0e-11e6-99dd-b90adcfdc61f.jpg" alt="janus3D automatic co-registration"></p>
+
+<p>7) correct registration if necessary
+<img src="https://cloud.githubusercontent.com/assets/18577101/16453741/37a5bff2-3e0e-11e6-963d-28eefff99096.jpg" alt="janus3D correct alignment manually"></p>
+
+<p>8) select electrodes either manually...
+<img src="https://cloud.githubusercontent.com/assets/18577101/16453748/37bbaf4c-3e0e-11e6-9f72-2f63e2b3b93d.jpg" alt="janus3D manual electrode selection"></p>
+
+<p>9) or automatically by defining a template electrode
+<img src="https://cloud.githubusercontent.com/assets/18577101/16453743/37a6302c-3e0e-11e6-86e6-988c3957772e.jpg" alt="janus3D automatic electrode selection template selection">
+<img src="https://cloud.githubusercontent.com/assets/18577101/16453742/37a5dc76-3e0e-11e6-929a-ba8fd641b9f0.jpg" alt="janus3D automatic electrode selection"></p>
+
+<p>10) get electrode labels automatically based on a previously set template
+<img src="https://cloud.githubusercontent.com/assets/18577101/16453738/378a1e1e-3e0e-11e6-91e7-6076f622a145.jpg" alt="janus3D automatic labeling"></p>
+
+<p>11) plot final results 
+<img src="https://cloud.githubusercontent.com/assets/18577101/16453740/37a513c2-3e0e-11e6-80b0-566ab29e75f4.jpg" alt="janus3D final results"></p>
+
+<p>More detailed information on how to use janus3D, can be found in the janus3D users manual.</p>
+      </section>
+      <footer>
+        <p>This project is maintained by <a href="https://github.com/janus3D">janus3D</a></p>
+        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
+      </footer>
+    </div>
+    <script src="javascripts/scale.fix.js"></script>
+    
+  </body>
+</html>
