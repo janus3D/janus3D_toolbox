@@ -1,0 +1,1 @@
+To install janus3D add the janus3D folder containing all functions to your MATLAB search path.
