@@ -3,11 +3,11 @@ function [ Model ] = tc_readObj( filename )
 
 [pathstr,name,ext] = fileparts((filename));
 
-copyfile(filename,[name '_tmp' ext])
+copyfile(filename,[pathstr filesep name '_tmp' ext])
 
 filename=[name '_tmp' ext];
 
-movefile(filename, fullfile(pathstr, [name '_tmp.txt']))
+movefile([pathstr filesep filename], fullfile(pathstr, [name '_tmp.txt']))
 
 filename=[pathstr,filesep,name '_tmp.txt'];
 
