@@ -1,5 +1,6 @@
 function [ Model ] = tc_readObj( filename )
-
+%% [ Model ] = tc_readObj( filename )
+% read .obj files from filename
 
 [pathstr,name,ext] = fileparts((filename));
 
